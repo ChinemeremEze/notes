@@ -90,7 +90,7 @@ This is a RESTful API for managing notes. It allows users to create, read, updat
 
 ## API Documentation
 
-- **Postman Collection**: A Postman collection for testing the API is available at: [Postman Collection](https://www.postman.com/ezeakudoluchinemerem/workspace/david-workspace/collection/12835302-3c2a019f-3cfa-438b-b934-b4ac9177ad40)
+- **Postman Collection**: A Postman collection for testing the API is available at: [Postman Collection](https://web.postman.co/workspace/David-Workspace~7b6db6af-2d06-4bf3-a3ac-f0a4d930e9ac/collection/12835302-3c2a019f-3cfa-438b-b934-b4ac9177ad40)
 
 ## License
 
