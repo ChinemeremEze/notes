@@ -2,6 +2,10 @@ services:
   - type: web
     name: notes-app
     env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "gunicorn notes.wsgi --bind 0.0.0.0:$PORT"
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py collectstatic --noinput
+    startCommand: |
+      python manage.py migrate
+      gunicorn notes.wsgi:application
     plan: free
